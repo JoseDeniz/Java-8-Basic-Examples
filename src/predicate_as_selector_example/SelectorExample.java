@@ -14,10 +14,14 @@ public class SelectorExample {
         Predicate<Integer> isEven = number -> number % 2 == 0;
         Predicate<Integer> isOdd = number -> number % 2 != 0;
         Predicate<Integer> noFilters = number -> true;
+        Predicate<Integer> isGreaterThanThree = number -> number > 3;
+        Predicate<Integer> isLowerThanSeven = number -> number < 7;
 
         System.out.println("Sum of all numbers: " +       sum(numbers).filteringBy(noFilters) + "\n" +
                            "Sum of only even numbers: " + sum(numbers).filteringBy(isEven) + "\n" +
-                           "Sum of only odd numbers: " +  sum(numbers).filteringBy(isOdd));
+                           "Sum of only odd numbers: " +  sum(numbers).filteringBy(isOdd)+ "\n" +
+                           "Sum of numbers greater than three and lower than seven: " +
+                            sum(numbers).filteringBy(isGreaterThanThree.and(isLowerThanSeven)));
     }
 
     private static Filter sum(List<Integer> numbers) {
