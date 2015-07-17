@@ -1,4 +1,4 @@
-package SupplierExample;
+package supplier_example;
 
 import java.util.List;
 import java.util.function.IntFunction;
