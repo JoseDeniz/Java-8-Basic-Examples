@@ -1,4 +1,4 @@
-package collectors_examples;
+package collectors_examples.joining_example;
 
 import java.util.Arrays;
 import java.util.List;
