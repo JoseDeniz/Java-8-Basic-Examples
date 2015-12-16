@@ -1,4 +1,4 @@
-package collectors_examples.grouping_example;
+package java8.collectors_examples.grouping_example;
 
 public class Person {
 

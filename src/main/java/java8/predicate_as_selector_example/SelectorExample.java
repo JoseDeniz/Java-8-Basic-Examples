@@ -1,4 +1,4 @@
-package predicate_as_selector_example;
+package java8.predicate_as_selector_example;
 
 import java.util.List;
 import java.util.function.Predicate;

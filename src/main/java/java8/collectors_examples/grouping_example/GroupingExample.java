@@ -1,4 +1,4 @@
-package collectors_examples.grouping_example;
+package java8.collectors_examples.grouping_example;
 
 import java.util.List;
 import java.util.Map;

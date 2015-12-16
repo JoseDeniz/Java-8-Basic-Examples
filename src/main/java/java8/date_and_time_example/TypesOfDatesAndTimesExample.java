@@ -1,4 +1,4 @@
-package date_and_time_example;
+package java8.date_and_time_example;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;

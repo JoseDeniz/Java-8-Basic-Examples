@@ -1,4 +1,4 @@
-package read_lines_from_file_example;
+package java8.read_lines_from_file_example;
 
 import java.io.IOException;
 import java.nio.file.Path;
@@ -11,7 +11,7 @@ public class ReadLinesFromFileExample {
 
     public static void main(String[] args) {
 
-        Path path = Paths.get("src/read_lines_from_file_example/Hello.txt");
+        Path path = Paths.get("src/main/resources/Hello.txt");
 
         try {
 
